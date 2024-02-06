@@ -1,0 +1,24 @@
+.Comparison {
+  height: 100%;
+  flex-grow: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.LanguageCol {
+  ul {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+}
+
+.title {
+  text-align: center;
+  width: 100%;
+}
+
+.completed {
+  pointer-events: none;
+  opacity: 0;
+}

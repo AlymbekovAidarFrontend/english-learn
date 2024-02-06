@@ -1,0 +1,1 @@
+export { WordListAsync as WordList } from './ui/WordList/WordList.async';

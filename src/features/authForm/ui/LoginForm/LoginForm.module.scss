@@ -1,0 +1,91 @@
+.LoginForm {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 48px;
+}
+
+.ring {
+  position: relative;
+  width: 650px;
+  height: 650px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  i {
+    position: absolute;
+    inset: 0;
+    border: 2px solid;
+    transition: 0.5s;
+  }
+
+  i:nth-child(1) {
+    border-radius: 38% 62% 63% 37% / 41% 44% 56% 59%;
+    animation: rotateAnimate 6s linear infinite;
+    border-color: blue;
+  }
+
+  &:hover i:nth-child(1) {
+    border: 6px solid blue;
+    filter: drop-shadow(0 0 20px aqua);
+  }
+
+  i:nth-child(2) {
+    border-radius: 41% 44% 56% 59% / 38% 62% 63% 37%;
+    animation: rotateAnimate 4s linear infinite;
+    border-color: white;
+  }
+
+  &:hover i:nth-child(2) {
+    border: 6px solid white;
+    filter: drop-shadow(0 0 20px white);
+  }
+
+  i:nth-child(3) {
+    border-radius: 41% 44% 56% 59% / 38% 62% 63% 37%;
+    animation: rotateBackAnimate 10s linear infinite;
+    border-color: aqua;
+  }
+
+  &:hover i:nth-child(3) {
+    border: 6px solid aqua;
+    filter: drop-shadow(0 0 20px aqua);
+  }
+}
+
+.login {
+  position: absolute;
+  width: 300px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+}
+
+@keyframes rotateAnimate {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes rotateBackAnimate {
+  0% {
+    transform: rotate(360deg);
+  }
+
+  100% {
+    transform: rotate(0deg);
+  }
+}

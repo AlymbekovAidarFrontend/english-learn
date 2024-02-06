@@ -1,0 +1,1 @@
+export { LogoutConfirmFormAsync as LogoutConfirmForm } from './ui/LogoutConfirmForm.async';

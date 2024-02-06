@@ -1,0 +1,231 @@
+{
+  "words": [
+    {
+      "translations": {
+        "english": "Hi",
+        "russian": "Привет"
+      },
+      "synonyms": {
+        "english": [
+          "Hello"
+        ],
+        "russian": [
+          "Привет"
+        ]
+      },
+      "id": 1
+    },
+    {
+      "translations": {
+        "english": "half",
+        "russian": "половина"
+      },
+      "synonyms": {
+        "english": [
+          "hf"
+        ],
+        "russian": [
+          "половина"
+        ]
+      },
+      "id": 2
+    },
+    {
+      "translations": {
+        "english": "Sun",
+        "russian": "Солнце"
+      },
+      "synonyms": {
+        "english": [
+          "Sunlight",
+          "Sunshine"
+        ],
+        "russian": [
+          "Солнце",
+          "Сияние"
+        ]
+      },
+      "id": 4
+    },
+    {
+      "translations": {
+        "english": "Book",
+        "russian": "Книга"
+      },
+      "synonyms": {
+        "english": [
+          "Volume",
+          "Publication"
+        ],
+        "russian": [
+          "Книга",
+          "Том"
+        ]
+      },
+      "id": 5
+    },
+    {
+      "translations": {
+        "english": "Friend",
+        "russian": "Друг"
+      },
+      "synonyms": {
+        "english": [
+          "Companion",
+          "Pal"
+        ],
+        "russian": [
+          "Друг",
+          "Товарищ"
+        ]
+      },
+      "id": 6
+    },
+    {
+      "translations": {
+        "english": "Mountain",
+        "russian": "Гора"
+      },
+      "synonyms": {
+        "english": [
+          "Peak",
+          "Summit"
+        ],
+        "russian": [
+          "Гора",
+          "Вершина"
+        ]
+      },
+      "id": 7
+    },
+    {
+      "translations": {
+        "english": "Water",
+        "russian": "Вода"
+      },
+      "synonyms": {
+        "english": [
+          "H2O",
+          "Liquid"
+        ],
+        "russian": [
+          "Вода",
+          "Жидкость"
+        ]
+      },
+      "id": 8
+    },
+    {
+      "translations": {
+        "english": "Dream",
+        "russian": "Сон"
+      },
+      "synonyms": {
+        "english": [
+          "Fantasy",
+          "Imagination"
+        ],
+        "russian": [
+          "Сон",
+          "Фантазия"
+        ]
+      },
+      "id": 9
+    },
+    {
+      "translations": {
+        "english": "City",
+        "russian": "Город"
+      },
+      "synonyms": {
+        "english": [
+          "Town",
+          "Metropolis"
+        ],
+        "russian": [
+          "Город",
+          "Городок"
+        ]
+      },
+      "id": 10
+    },
+    {
+      "translations": {
+        "english": "Rainbow",
+        "russian": "Радуга"
+      },
+      "synonyms": {
+        "english": [
+          "Color arc",
+          "Prism"
+        ],
+        "russian": [
+          "Радуга",
+          "Цветной дуга"
+        ]
+      },
+      "id": 11
+    },
+    {
+      "translations": {
+        "english": "Tree",
+        "russian": "Дерево"
+      },
+      "synonyms": {
+        "english": [
+          "Forest",
+          "Timber"
+        ],
+        "russian": [
+          "Дерево",
+          "Лес"
+        ]
+      },
+      "id": 12
+    },
+    {
+      "translations": {
+        "english": "Music",
+        "russian": "Музыка"
+      },
+      "synonyms": {
+        "english": [
+          "Melody",
+          "Harmony"
+        ],
+        "russian": [
+          "Музыка",
+          "Мелодия"
+        ]
+      },
+      "id": 13
+    },
+    {
+      "translations": {
+        "english": "Fire",
+        "russian": "Огонь"
+      },
+      "synonyms": {
+        "english": [
+          "Flame",
+          "Inferno"
+        ],
+        "russian": [
+          "Огонь",
+          "Пламя"
+        ]
+      },
+      "id": 14
+    }
+  ],
+  "users": [
+    {
+      "id": "1",
+      "username": "aidar",
+      "password": "123",
+      "roles": [
+        "ADMIN"
+      ]
+    }
+  ]
+}
